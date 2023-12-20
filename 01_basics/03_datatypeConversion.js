@@ -35,3 +35,33 @@ let number = 33
 let stringnumber = String(number)
 console.log(typeof stringnumber); // string
 console.log(stringnumber); // 33
+
+/************************************* Operations ************************************/
+
+let value = 3
+let negValue = -(value)
+console.log(negValue); // -3
+
+// console.log(2**4) // 2 to power 4
+// console.log(31%3) // remainder when 31 is divided by 3
+
+let str1 ="Nishant"
+let str2 =" Sharma"
+
+console.log(str1 + str2)
+
+// console.log(+true); // 1 ,tricky conversion not preffered
+// console.log(+""); // 0 ,tricky conversion not preffered
+
+// let a = 3,b =a++
+// console.log(b); // returns 3 , returns value before incrementing
+
+let a =3,b =++a
+console.log(b); // returns 4 , returns value after incrementing
+
+/*
+
+a++ => (postfix) increment operator increments and returns the value before incrementing
+++a => (prefix) increment operator increments and returns the value after incrementing
+
+*/
