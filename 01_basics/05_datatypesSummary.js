@@ -56,3 +56,23 @@ Return type of variables in JavaScript
        Function  =>  function (function object/object function)
        Object  =>  object
 */
+
+
+// -----------------------------------Stack and Heap memories---------------------------------------
+
+/* 
+Stack(used in primitive datatypes) , Heap(used in non-primitive datatypes)
+
+Primitive dataType goes in stack memory; And it provides copy of that element.
+So when we change something (through assigned variable) it gets changed in copy of element  not in original.
+
+Opposite of this. Non primitive dataType get stored in HEAP memory. 
+And it gives reference to the value of assigned elements.
+So when assigned variable makes changes it changes the both values(original and assigned one
+
+So we can say that stack memory is call by value while Heap memory is call by reference.
+
+Link to yt video : https://www.youtube.com/watch?v=7gwc-1czolw&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=10
+
+*/
+
