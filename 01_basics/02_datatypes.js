@@ -21,7 +21,7 @@
 let age= 18
 let name= "Nishant"
 
-// to check datattypes use typeof
+// to check datattypes use typeof method
 console.log(typeof name) // string
 console.log(typeof age) // number
 console.log(typeof null) // this gives object one of the problem of JS
